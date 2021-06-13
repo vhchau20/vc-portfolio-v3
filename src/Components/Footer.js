@@ -36,7 +36,7 @@ class Footer extends Component {
               </li>
             </ul>
             <ul className="credits">
-              <li> Designed by Tim Baker - Modified by Vincent Chau</li>
+              <li> Designed by Vincent Chau</li>
             </ul>
           </div>
           <div id="go-top">
