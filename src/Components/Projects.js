@@ -7,15 +7,57 @@ class Projects extends Component {
         <div className="row swe">
           <div className="three columns header-col">
             <h1>
-              <span>Software DEV</span>
+              <span>WORK EXPERIENCE</span>
             </h1>
           </div>
 
           <div className="nine columns main-col">
             <div class="wrap-collapsible">
+              <input id="collapsible4" class="toggle" type="checkbox" />
+              <label for="collapsible4" class="lbl-toggle">
+                Software Engineer @ Classy
+              </label>
+              <div class="collapsible-content">
+                <div class="content-inner">
+                  <ul>
+                    <li>TBA</li>
+                  </ul>
+                </div>
+              </div>
+
+              <input id="collapsible5" class="toggle" type="checkbox" />
+              <label for="collapsible5" class="lbl-toggle">
+                Systems Engineer @ Motorola Solutions
+              </label>
+              <div class="collapsible-content">
+                <div class="content-inner">
+                  <ul>
+                    <li>Deployed radio telecommunication systems for various Californian public safety institutions including City of Hemet Police Department, City of Redding, and San Jose Fire Department</li>
+                    <li>Outlined system solutions using internal tools based on customer’s area of service, population density, and geographical landscape</li>
+                    <li>Validated equipment orders composed by sales teams, saving up to thousands of dollars in project time</li>
+                    <li>Generated RF coverage maps using proprietary software to ensure that radio subscribers passed audio quality tests</li>
+                    <li>Conducted acceptance tests plans with customers to certify that staged equipment worked reliably and as proposed</li>
+                    <li>Documented system designs through high-level diagrams using Visio Pro and AutoCAD</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
+        <div className="row ds">
+          <div className="three columns header-col">
+            <h1>
+              <span>SOFTWARE PROJECTS</span>
+            </h1>
+          </div>
+          <div className="nine columns main-col">
+            <div class="wrap-collapsible">
               <input id="collapsible1" class="toggle" type="checkbox" />
               <label for="collapsible1" class="lbl-toggle">
-                Virtual Reality Cell Visualizer
+                Virtual Reality Cell Visualizer [C#, Unity]
               </label>
               <div class="collapsible-content">
                 <div class="content-inner">
@@ -41,7 +83,7 @@ class Projects extends Component {
 
               <input id="collapsible2" class="toggle" type="checkbox" />
               <label for="collapsible2" class="lbl-toggle">
-                Map Journal
+                Map Journal [Go, JavaScript, ReactJS]
               </label>
               <div class="collapsible-content">
                 <div class="content-inner">
@@ -54,7 +96,7 @@ class Projects extends Component {
                     src="images/MapJournal Demo.png"
                     alt="MapJournal Demo"
                   />
-                  
+
                   <a
                     href="https://github.com/vhchau20/MapJournal"
                     target="_blank"
@@ -68,21 +110,21 @@ class Projects extends Component {
 
               <input id="collapsible3" class="toggle" type="checkbox" />
               <label for="collapsible3" class="lbl-toggle">
-                Twitch TV Drawing Extension
+                Twitch TV Drawing Extension [ReactJS]
               </label>
               <div class="collapsible-content">
                 <div class="content-inner">
                   <ul>
-                      <li>Developed a panel extension for twitch.tv using React and Node.js that allows users to draw pictures on an
+                    <li>Developed a panel extension for twitch.tv using React and Node.js that allows users to draw pictures on an
                       in-browser canvas, which could then be posted onto a broadcaster’s chatroom</li>
-                      <li>Established database using AWS DynamoDB to store drawn pictures and utilized AWS Lambda to send those pics
+                    <li>Established database using AWS DynamoDB to store drawn pictures and utilized AWS Lambda to send those pics
                       to the chatroom</li>
-                    </ul>
+                  </ul>
 
                   <a
-                  href="https://github.com/xianhaic/chat-sketch"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                    href="https://github.com/xianhaic/chat-sketch"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Github Link
                   </a>
@@ -91,41 +133,13 @@ class Projects extends Component {
 
             </div>
           </div>
+
         </div>
 
-        <div className="row ds">
+        {/* <div className="row neuro">
           <div className="three columns header-col">
             <h1>
-              <span>Systems ENG</span>
-            </h1>
-          </div>
-
-          <div className="nine columns main-col">
-            <div class="wrap-collapsible">
-              <input id="collapsible5" class="toggle" type="checkbox" />
-              <label for="collapsible5" class="lbl-toggle">
-                Motorola Solutions
-              </label>
-              <div class="collapsible-content">
-                <div class="content-inner">
-                  <ul>
-                    <li>Deployed radio telecommunication systems for various Californian public safety institutions including City of Hemet Police Department, City of Redding, and San Jose Fire Department</li>
-                    <li>Outlined system solutions using internal tools based on customer’s area of service, population density, and geographical landscape</li>
-                    <li>Validated equipment orders composed by sales teams, saving up to thousands of dollars in project time</li>
-                    <li>Generated RF coverage maps using proprietary software to ensure that radio subscribers passed audio quality tests</li>
-                    <li>Conducted acceptance tests plans with customers to certify that staged equipment worked reliably and as proposed</li>
-                    <li>Documented system designs through high-level diagrams using Visio Pro and AutoCAD</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="row neuro">
-          <div className="three columns header-col">
-            <h1>
-              <span>Mathematics</span>
+              <span>MATH PROJECTS</span>
             </h1>
           </div>
 
@@ -140,7 +154,7 @@ class Projects extends Component {
                   <p>
                     Report on how Graph Theory can be applied in cases such as the US Census
                     <br></br>
-                    <embed src="images/presentation-vhchau.pdf" width="600px" height="800px"/>
+                    <embed src="images/presentation-vhchau.pdf" width="600px" height="800px" />
                   </p>
                 </div>
               </div>
@@ -154,13 +168,13 @@ class Projects extends Component {
                   <p>
                     Report on churn rate for IBM Subscribers
                     <br></br>
-                    <embed src="images/IBM Churn.pdf" width="800px" height="500px"/>                    
+                    <embed src="images/IBM Churn.pdf" width="800px" height="500px" />
                   </p>
                 </div>
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </section>
     );
   }

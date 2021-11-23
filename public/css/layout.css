@@ -23,7 +23,7 @@ header {
   height: 800px;
   min-height: 500px;
   width: 100%;
-  background: #161415 url(../images/header-background.jpg) no-repeat top center;
+  background: #161415 url(../images/sd1.jpg) no-repeat top center;
   background-size: cover !important;
   -webkit-background-size: cover !important;
   text-align: center;
@@ -262,12 +262,12 @@ ul#nav li.current a {
 
 #about a,
 #about a:visited {
-  color: #fff;
+  color: blue;
 }
 
 #about a:hover,
 #about a:focus {
-  color: #11abb0;
+  color: red;
 }
 
 #about h2 {

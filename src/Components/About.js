@@ -15,10 +15,13 @@ class About extends Component {
           <div className="nine columns main-col">
             <h2>About Me</h2>
             <p>
-              Hi! I'm Vincent, a Mathematics - Computer Science grad from UCSD. I am currently working as a Systems Engineer at Motorola Solutions.
+              Hello there! I'm a Software Engineer currently working at Classy, a San Diego-based startup working on providing nonprofit organizations with the best-in-class fundraising platform. Check out our company's mission at <a href="https://classy.org">Classy.org</a>!
             </p>
             <p>
-              I have a strong interest in software development, having done projects relating to Virtual and Augmented Reality, Mobile iOS and Android Development, and Game Development using Unity and Unreal Engine 4. Check out my projects below!
+              Some of my career interests include Augmented/Virtual Reality, Computer Vision, Web/Mobile development, and seeing what the metaverse has in store. 
+            </p>
+            <p>
+              Outside of work, you can find me rock climbing, surfing, and shooting videos/photos.
             </p>
           </div>
         </div>

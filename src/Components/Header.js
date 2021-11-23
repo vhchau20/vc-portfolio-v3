@@ -38,7 +38,7 @@ class Header extends Component {
               <div class="slider">
                 <div class="slider-text1">Mathematician</div>
                 <div class="slider-text2">Systems Engineer</div>
-                <div class="slider-text3">Software Developer</div>
+                <div class="slider-text3">Software Engineer</div>
               </div>
             </div>
 
