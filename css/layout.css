@@ -262,7 +262,7 @@ ul#nav li.current a {
 
 #about a,
 #about a:visited {
-  color: blue;
+  color: cyan;
 }
 
 #about a:hover,
